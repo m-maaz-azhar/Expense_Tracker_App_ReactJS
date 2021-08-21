@@ -33,7 +33,7 @@ jobs:
       with:
         cmd: install
     - name: Build React App
-      run: yarn build
+      run: sudo yarn build
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
